@@ -1,0 +1,26 @@
+example:
+  MMOItemsID: SWORD
+  #物品分类
+  MATERIAL: SWORD
+  level:
+    min: 1
+    max: 500
+  #以stats结尾的可以无限创建多种类型的数值组
+  #多个数值组如果添加了同样的数值则叠加计算
+  damage-stats:
+    var1: 1
+    var2: 1
+    var3: 1
+    var4: 1
+    var5: 1
+    min: 1
+    max: 1
+    CRITICAL_STRIKE_CHANCE:
+      chance: 0.5*lvl
+      chance-max: 0.8
+      amount: 2*lvl
+      min: 10
+      max: 45
+      var1_Set: 40
+      up: 20
+      down: 50
