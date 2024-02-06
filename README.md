@@ -1,3 +1,7 @@
+# EliteHelper
+
+基于EliteMobs的精英怪刷新系统
+
 # Building
 
 * [Gradle](https://gradle.org/) - Dependency Management
